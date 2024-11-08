@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "lib": ["ES2015", "DOM"], // Include ES2015 library for Promise support
+    "module": "commonjs",
+        "esModuleInterop": true,
+    "strict": false, // Disables strict type-checking
+    "noImplicitAny": false, // Allows `any` type where TypeScript can't infer the type
+    "skipLibCheck": true // Skips type checking of declaration files
+  }
+}
+
